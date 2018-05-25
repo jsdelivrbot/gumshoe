@@ -10,4 +10,4 @@ npm i npm@latest -g
 npm install --save
 apt-get install -y screen
 screen
-echo PUBLISHABLE_KEY=pk_test_6pRNASCoBOKtIshFeQd4XMUh SECRET_KEY=sk_test_BQokikJOvBiI2HlWgH4olfQ2 MONGO_URI=mongodb://127.0.0.1:27017 PORT=80 node app.js
+#PUBLISHABLE_KEY=pk_test_6pRNASCoBOKtIshFeQd4XMUh SECRET_KEY=sk_test_BQokikJOvBiI2HlWgH4olfQ2 MONGO_URI=mongodb://127.0.0.1:27017 PORT=80 node app.js
