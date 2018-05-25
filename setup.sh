@@ -6,6 +6,7 @@ apt-get install -y mongodb
 apt-get install -y authbind
 git clone https://github.com/hollerith/pohnaz.git
 cd pohnaz
-npm i npm@latest -g
+npm install npm@latest -g
+npm install pm2 -g
 npm install --save
 apt-get install -y screen
