@@ -4,8 +4,13 @@ apt-get install -y nodejs
 apt-get install -y build-essential
 apt-get install -y mongodb
 apt-get install -y authbind
-git clone https://github.com/hollerith/pohnaz.git
-cd pohnaz
+id -u sammy || adduser sammy
+touch /etc/authbind/byport/80
+chown sammy:sammy /etc/authbind/byport/80
+chmod 755 /etc/authbind/byport/80
+cd /var
+git clone https://github.com/hollerith/pohnaz.git www
+cd www
 npm install npm@latest -g
 npm install pm2 -g
 npm install --save
