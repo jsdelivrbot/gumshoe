@@ -9,6 +9,8 @@ touch /etc/authbind/byport/80
 chown sammy:sammy /etc/authbind/byport/80
 chmod 755 /etc/authbind/byport/80
 cd /var
+git config --global user.name hollerith
+git config --global user.email hollerith@gmail.com
 git clone https://github.com/hollerith/pohnaz.git www
 cd www
 npm install npm@latest -g
