@@ -1,4 +1,4 @@
 # gumshoe
 Fairies wear boots
 
-curl -sL https://cdn.rawgit.com/hollerith/gumshoe/master/setup.sh | bash -
+curl -sL https://cdn.jsdelivr.net/gh/hollerith/gumshoe/setup.sh | bash -
